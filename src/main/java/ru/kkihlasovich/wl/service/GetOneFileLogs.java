@@ -1,4 +1,6 @@
 package ru.kkihlasovich.wl.service;
+import org.apache.log4j.LogManager;
+
 import javax.xml.datatype.XMLGregorianCalendar;
 import java.io.*;
 import java.util.ArrayList;
@@ -11,22 +13,25 @@ import java.util.regex.Pattern;
 
 //call GetLogTime;
  class GetOneFileLogs {
-
+      final static private Integer LOG_LINE_START = 5;
+      private final static org.apache.log4j.Logger logger = LogManager.getLogger(GetOneFileLogs.class);
       protected List<Log> getFileLogs
              (String findZone,
               String word,
-              XMLGregorianCalendar dateFrom, XMLGregorianCalendar dateTo) throws IOException {
+              XMLGregorianCalendar dateFrom, XMLGregorianCalendar dateTo) {
+          logger.info("getFileLogs run is success");
 
           XMLGregorianCalendar date = null;
           List<Log> list = new ArrayList<Log>();
           File f = new File(findZone);
-          BufferedReader fin = new BufferedReader(new FileReader(f));
           Pattern wordPattern = Pattern.compile(word);
           String line;
           String threadName = null;
           boolean haveWord = false;
-          String text = null;
+          ArrayList<String> text = new ArrayList<>();
 
+          try(BufferedReader fin = new BufferedReader(new FileReader(f))) {
+              logger.info("read File");
               while ((line = fin.readLine()) != null) {
                   if (line.contains("####")) {
                       Log log = new Log();
@@ -36,20 +41,25 @@ import java.util.regex.Pattern;
                           log.threadName = threadName;
                           list.add(log);
                       }
+                      text = new ArrayList<>();
                       date = log.getTime(line);
-                      text = line.substring(5);
+                      text.add(line.substring(LOG_LINE_START));
                       threadName = log.getThreadName(line);
                       haveWord = false;
                   }
                   if (!line.contains("####")) {
-                      text = text + "\n" + line;
+                      text.add(line);
                   }
                   Matcher matcher = wordPattern.matcher(line);
                   if (matcher.find() && new LogDates().isDateBetween(date, dateFrom, dateTo)) haveWord = true;
-
               }
-          fin.close();
-
+          } catch (FileNotFoundException e) {
+              logger.error("FileNot'FoundException in getFileLogs()");
+              e.printStackTrace();
+          } catch (IOException e) {
+              logger.error("IOException in getFileLogs()");
+              e.printStackTrace();
+          }
           return list;
     }
 }

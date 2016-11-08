@@ -3,12 +3,10 @@ package ru.kkihlasovich.wl.restservice;
 import ru.kkihlasovich.wl.service.ApplicationGetServerLogs;
 import ru.kkihlasovich.wl.service.Log;
 import ru.kkihlasovich.wl.service.LogDates;
-
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Set;
 
@@ -22,7 +20,7 @@ import java.util.Set;
     @XmlElement private String word;
     @XmlElement private ArrayList<LogDates> list;
 
-     protected Set<Log> getServerLogs() throws IOException {
+     protected Set<Log> getServerLogs() {
         return new ApplicationGetServerLogs().getServerLogs(this.zone,this.word,this.list);
     }
 }

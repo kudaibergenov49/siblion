@@ -1,7 +1,7 @@
 ru\kkihlasovich\wl\service\ReturnLogFiles.class
 ru\kkihlasovich\wl\service\GetOneFileLogs.class
+ru\kkihlasovich\wl\service\TreeSetLogSort.class
 ru\kkihlasovich\wl\soapservice\SoapGetLogs.class
-ru\kkihlasovich\wl\service\ApplicationGetServerLogs$1.class
 ru\kkihlasovich\wl\restservice\InputTypes.class
 ru\kkihlasovich\wl\restservice\RestGetLogs.class
 ru\kkihlasovich\wl\service\ApplicationGetServerLogs.class
