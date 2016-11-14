@@ -2,44 +2,164 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8367b5c-a3df-4da2-be5c-b414e0fc4e9a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/soapservice/XSLTTransform.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/kkihlasovich/wl/service/ApplicationGetServerLogs$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/classes/ru/kkihlasovich/wl/service/ApplicationGetServerLogs$1.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/kkihlasovich/wl/restservice/InputTypes.class" afterPath="$PROJECT_DIR$/target/classes/ru/kkihlasovich/wl/restservice/InputTypes.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/kkihlasovich/wl/restservice/RestGetLogs.class" afterPath="$PROJECT_DIR$/target/classes/ru/kkihlasovich/wl/restservice/RestGetLogs.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/kkihlasovich/wl/service/ApplicationGetServerLogs.class" afterPath="$PROJECT_DIR$/target/classes/ru/kkihlasovich/wl/service/ApplicationGetServerLogs.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/kkihlasovich/wl/service/GetOneFileLogs.class" afterPath="$PROJECT_DIR$/target/classes/ru/kkihlasovich/wl/service/GetOneFileLogs.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_itextpdf_5_0_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_0_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avalon_framework_avalon_framework_api_4_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avalon_framework_avalon_framework_impl_4_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_anim_1_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_awt_util_1_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_bridge_1_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_css_1_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_dom_1_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_ext_1_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_extension_1_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_gvt_1_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_parser_1_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_script_1_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_svg_dom_1_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_svggen_1_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_transcoder_1_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_util_1_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_xml_1_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_fop_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_xmlgraphics_commons_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcmail_jdk14_1_38.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk14_1_38.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bctsp_jdk14_1_38.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_9_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_ext_1_3_04.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Sheet.xsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/businesslogic/BusinessLogic.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/businesslogic/InputTypes.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/creator/MarshallerObj.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/creator/StyleSheet.xsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/creator/XMLFromJAXB.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/restservice/RestLogs.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/soapservice/SoapLogs.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/types/ConvertXMLToHTML.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/types/CreatePDF.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/types/LogConvert.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/types/OutputLogs.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/types/Sheet.xsl" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/restservice/InputTypes.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/restservice/RestGetLogs.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/soapservice/SoapGetLogs.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/transform.xslt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/kkihlasovich/wl/restservice/InputTypes.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/kkihlasovich/wl/restservice/RestGetLogs.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/kkihlasovich/wl/service/ApplicationGetServerLogs.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/kkihlasovich/wl/service/GetOneFileLogs.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/kkihlasovich/wl/service/ReturnLogFiles.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/kkihlasovich/wl/soapservice/SoapGetLogs.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT.war" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/classes/ru/kkihlasovich/wl/restservice/InputTypes.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/classes/ru/kkihlasovich/wl/restservice/RestGetLogs.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/classes/ru/kkihlasovich/wl/service/ApplicationGetServerLogs.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/classes/ru/kkihlasovich/wl/service/GetOneFileLogs.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/classes/ru/kkihlasovich/wl/service/Log.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/classes/ru/kkihlasovich/wl/service/LogDates.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/classes/ru/kkihlasovich/wl/service/ReturnLogFiles.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/classes/ru/kkihlasovich/wl/service/TreeSetLogSort.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/classes/ru/kkihlasovich/wl/soapservice/SoapGetLogs.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/activation-1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/aether-api-1.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/aether-impl-1.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/aether-spi-1.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/aether-util-1.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/bcmail-jdk14-1.38.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/bcmail-jdk14-138.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/bcprov-jdk14-1.38.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/bcprov-jdk14-138.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/bctsp-jdk14-1.38.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/castor-core-1.3.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/castor-xml-1.3.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/commons-beanutils-1.9.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/commons-collections-3.2.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/commons-compress-1.11.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/commons-digester-2.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/commons-io-2.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/commons-lang-2.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/core-2.3.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/ecj-4.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/gson-2.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/itext-2.1.7.js3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.1.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.1.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.1.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/jakarta-regexp-1.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/jasperreports-6.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/javaee-api-7.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/javax.inject-1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/javax.mail-1.5.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/jcommon-1.0.23.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/jfreechart-1.0.19.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.17.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/lucene-analyzers-common-4.5.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/lucene-core-4.5.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/lucene-queries-4.5.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/lucene-queryparser-4.5.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/lucene-sandbox-4.5.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/maven-aether-provider-3.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/maven-archiver-3.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/maven-artifact-3.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/maven-core-3.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/maven-filtering-3.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/maven-mapping-3.0.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/maven-model-3.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/maven-model-builder-3.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/maven-plugin-api-3.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/maven-repository-metadata-3.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/maven-settings-3.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/maven-settings-builder-3.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/maven-shared-utils-3.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/maven-war-plugin-3.0.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/olap4j-0.9.7.309-JS-3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/plexus-archiver-3.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/plexus-build-api-0.0.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/plexus-cipher-1.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/plexus-classworlds-2.2.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/plexus-component-annotations-1.5.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/plexus-interpolation-1.22.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/plexus-io-2.7.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/plexus-sec-dispatcher-1.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/plexus-utils-3.0.24.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/sisu-guice-2.1.7-noaop.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/sisu-inject-bean-1.4.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/sisu-inject-plexus-1.4.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/snappy-0.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-3.0.6.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/spring-asm-3.0.6.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-3.0.6.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/spring-context-3.0.6.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/spring-core-3.0.6.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-3.0.6.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/stax-1.2.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/stax-api-1.0-2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/stax-api-1.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/xml-apis-1.3.02.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/xmlpull-1.1.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/xpp3_min-1.1.4c.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/xstream-1.4.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/lib/xz-1.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_3_03.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_3_04.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/ApplicationGetServerLogs.java" afterPath="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/ApplicationServerLogs.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/GetOneFileLogs.java" afterPath="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/OneFileLogs.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/ReturnLogFiles.java" afterPath="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/LogFiles.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/kkihlasovich/wl/service/Log.class" afterPath="$PROJECT_DIR$/target/classes/ru/kkihlasovich/wl/service/Log.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/kkihlasovich/wl/service/LogDates.class" afterPath="$PROJECT_DIR$/target/classes/ru/kkihlasovich/wl/service/LogDates.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/kkihlasovich/wl/service/ReturnLogFiles.class" afterPath="$PROJECT_DIR$/target/classes/ru/kkihlasovich/wl/service/ReturnLogFiles.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/kkihlasovich/wl/soapservice/SoapGetLogs.class" afterPath="$PROJECT_DIR$/target/classes/ru/kkihlasovich/wl/soapservice/SoapGetLogs.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/classes/ru/kkihlasovich/wl/restservice/InputTypes.class" afterPath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/classes/ru/kkihlasovich/wl/restservice/InputTypes.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/classes/ru/kkihlasovich/wl/restservice/RestGetLogs.class" afterPath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/classes/ru/kkihlasovich/wl/restservice/RestGetLogs.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/classes/ru/kkihlasovich/wl/service/ApplicationGetServerLogs.class" afterPath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/classes/ru/kkihlasovich/wl/service/ApplicationGetServerLogs.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/classes/ru/kkihlasovich/wl/service/GetOneFileLogs.class" afterPath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/classes/ru/kkihlasovich/wl/service/GetOneFileLogs.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/classes/ru/kkihlasovich/wl/service/Log.class" afterPath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/classes/ru/kkihlasovich/wl/service/Log.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/classes/ru/kkihlasovich/wl/service/LogDates.class" afterPath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/classes/ru/kkihlasovich/wl/service/LogDates.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/classes/ru/kkihlasovich/wl/service/ReturnLogFiles.class" afterPath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/classes/ru/kkihlasovich/wl/service/ReturnLogFiles.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/classes/ru/kkihlasovich/wl/soapservice/SoapGetLogs.class" afterPath="$PROJECT_DIR$/target/logs-1.0-SNAPSHOT/WEB-INF/classes/ru/kkihlasovich/wl/soapservice/SoapGetLogs.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/kkihlasovich/wl/service/TreeSetLogSort.class" afterPath="$PROJECT_DIR$/target/classes/ru/kkihlasovich/wl/service/TreeSetLogSort.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/SimpleApply_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/SimpleApply_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jasperreports_jasperreports_3_7_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jasperreports_jasperreports_3_7_6.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SimpleApply.iml" afterPath="$PROJECT_DIR$/SimpleApply.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/log4j.xml" afterPath="$PROJECT_DIR$/src/log4j.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/restservice/InputTypes.java" afterPath="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/restservice/InputTypes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/restservice/RestGetLogs.java" afterPath="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/restservice/RestGetLogs.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/ApplicationGetServerLogs.java" afterPath="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/ApplicationGetServerLogs.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/GetOneFileLogs.java" afterPath="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/GetOneFileLogs.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/Log.java" afterPath="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/Log.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/LogDates.java" afterPath="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/LogDates.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/ReturnLogFiles.java" afterPath="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/ReturnLogFiles.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/TreeSetLogSort.java" afterPath="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/TreeSetLogSort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/soapservice/SoapGetLogs.java" afterPath="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/soapservice/SoapGetLogs.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/transform.xslt" afterPath="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/transform.xslt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
     </list>
@@ -64,27 +184,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="OneFileLogs.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/OneFileLogs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+            <state relative-caret-position="167">
+              <caret line="44" column="52" selection-start-line="44" selection-start-column="52" selection-end-line="44" selection-end-column="52" />
+              <folding>
+                <element signature="docComment;class#OneFileLogs#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SoapLogs.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/soapservice/SoapLogs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="123">
+              <caret line="28" column="56" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Log.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/Log.java">
+      <file leaf-file-name="RestLogs.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/restservice/RestLogs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="71" column="47" selection-start-line="71" selection-start-column="47" selection-end-line="71" selection-end-column="47" />
+            <state relative-caret-position="204">
+              <caret line="35" column="55" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
               <folding>
-                <element signature="method#getTime#0;class#Log#0" expanded="false" />
-                <element signature="method#getXMLTime#0;class#Log#0" expanded="false" />
-                <element signature="method#getXMLTimeFromDateFormat#0;class#Log#0" expanded="false" />
-                <element signature="method#getThreadName#0;class#Log#0" expanded="false" />
+                <element signature="docComment;class#RestLogs#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InputTypes.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/businesslogic/InputTypes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BusinessLogic.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/businesslogic/BusinessLogic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -109,57 +258,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/simple/apply/Litlle_Log.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/simple/apply/Dates.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/simple/apply/IsDateBetween.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/simple/apply/LogDates.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/simple/apply/GetFiles.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/simple/apply/OneRangeLogs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/simple/apply/SoapWeb.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/simple/apply/Log.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/simple/apply/GetOneFileLogs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/logs/SoapWeb.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/logs/OneRangeLogs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/logs/GetFiles.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/logs/ReturnLogFiles.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/logs/GetServerLogs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/logs/GetLogFiles.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/logs/ComparisonDates.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/logs/LogDates.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/logs/GetOneFileLogs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/logs/Log.java" />
-        <option value="$PROJECT_DIR$/src/main/java/webapp/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/webapp/weblogic.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/restservice/GetLogsRestService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/soapservice/RestFetLogs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/soapservice/RestGetLogs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/soapservice/Log.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/soapservice/LogDates.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/soapservice/GetServerLogs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/soapservice/GetOneFileLogs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/soapservice/ApplicationLogicGetServerLogs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/soapservice/ReturnLogFiles.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/soapservice/GetLogFiles.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/mysoap/SoapGetLogs.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/GetLogFiles.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/ApplicationLogicGetServerLogs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/restservice/InputTypes.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/java/webapp/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/GetOneFileLogs.java" />
         <option value="$PROJECT_DIR$/src/log4j.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/LogDates.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/TreeSetLogSort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/Log.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/ReturnLogFiles.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/ApplicationGetServerLogs.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/soapservice/report1.jrxml" />
         <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/soapservice/SimpleReport.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/restservice/RestGetLogs.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/transform.xslt" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/soapservice/SoapGetLogs.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/soapservice/XSLTTransform.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/helloservice/HelloService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/restservice/StyleSheet.xslt" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/printFile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/PrintLogsFile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/ConstructorsForXML.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/restservice/XMLConvertHTML.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/restservice/StyleSheet.xsl" />
+        <option value="$PROJECT_DIR$/src/Sheet.xsl" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/restservice/JpReports.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/outdata/outputData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/restservice/ConvertXMLToHTML.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/TreeSetLogSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/LogConvert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/restservice/Sheet.xsl" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/OutputLogs.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/ConvertXMLToHTML.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/types/ConvertXMLToHTML.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/creator/StyleSheet.xsl" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/creator/CreateXML.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/creator/XMLtoXML.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/BusinessLogic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/types/LogConvert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/creator/MarshallerObj.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/ReturnLogFiles.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/ApplicationGetServerLogs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/GetOneFileLogs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/soapservice/SoapGetLogs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/restservice/RestGetLogs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/types/CreatePDF.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/types/OutputLogs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/restservice/InputTypes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/businesslogic/BusinessLogic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/LogFiles.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/businesslogic/InputTypes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/creator/XMLFromJAXB.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/LogDates.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/Log.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/ApplicationServerLogs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/OneFileLogs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/restservice/RestLogs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/soapservice/SoapLogs.java" />
       </list>
     </option>
   </component>
@@ -189,7 +338,32 @@
     </option>
   </component>
   <component name="MavenProjectNavigator">
-    <treeState />
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="logs" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="logs" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -241,8 +415,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -401,15 +574,76 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GetWeblogicLogs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GetWeblogicLogs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="restservice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GetWeblogicLogs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GetWeblogicLogs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="businesslogic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TemporaryCode" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -422,10 +656,13 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Куаныш\IdeaProjects\GetWeblogicLogs\src\main\java\ru\kkihlasovich\wl\types" />
       <recent name="C:\Users\Куаныш\IdeaProjects\GetWeblogicLogs\src\reports" />
       <recent name="C:\Users\Куаныш\IdeaProjects\GetWeblogicLogs\src\main\java\webapp" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Куаныш\IdeaProjects\GetWeblogicLogs\src\main\java\ru\kkihlasovich\wl\restservice" />
+      <recent name="C:\Users\Куаныш\IdeaProjects\GetWeblogicLogs\src" />
       <recent name="C:\Users\Куаныш\IdeaProjects\GetWeblogicLogs\src\main\java\ru\kkihlasovich\wl" />
       <recent name="C:\Users\Куаныш\IdeaProjects\GetWeblogicLogs\src\main\webapp" />
     </key>
@@ -840,6 +1077,22 @@
       <predefined_log_file id="WEBLOGIC_SERVER_LOG_FILE" enabled="true" />
       <method />
     </configuration>
+    <configuration default="true" type="XSLT" factoryName="XSLT">
+      <option name="myOutputFile" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" />
+      <option name="myWorkingDirectory" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -935,12 +1188,17 @@
       <workItem from="1478502912969" duration="23240000" />
       <workItem from="1478546271764" duration="2814000" />
       <workItem from="1478589561717" duration="7791000" />
-      <workItem from="1478623200138" duration="516000" />
+      <workItem from="1478623200138" duration="4338000" />
+      <workItem from="1478630521998" duration="68000" />
+      <workItem from="1478676218407" duration="18404000" />
+      <workItem from="1478698361695" duration="5658000" />
+      <workItem from="1478763810342" duration="19055000" />
+      <workItem from="1478850003972" duration="27185000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185858000" />
+    <option name="totallyTimeSpent" value="260050000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -953,40 +1211,40 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5226929" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.4969743" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23146747" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23146747" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39869282" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.48789713" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42156863" sideWeight="0.4773071" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38235295" sideWeight="0.4773071" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27458397" sideWeight="0.49008498" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27458397" sideWeight="0.509915" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.48789713" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -1020,7 +1278,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="14" />
+      <option name="time" value="21" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1029,63 +1287,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/util/TreeSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-994">
-          <caret line="122" column="11" selection-start-line="122" selection-start-column="11" selection-end-line="122" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/simple/apply/IsDateBetween.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/simple/apply/SoapWeb.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/simple/apply/OneRangeLogs.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/simple/apply/GetFiles.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/simple/apply/GetOneFileLogs.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/simple/apply/LogDates.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/simple/apply/Log.java" />
-    <entry file="file://$PROJECT_DIR$/SimpleApply.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/logs/LogDates.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/logs/GetLogFiles.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/logs/Log.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/logs/GetOneFileLogs.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/logs/ReturnLogFiles.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/logs/GetServerLogs.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/restservice/GetLogsRestService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/webapp/weblogic.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/webapp/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-api/7.0/javaee-api-7.0-sources.jar!/javax/ws/rs/QueryParam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-680">
-          <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/soapservice/GetLogFiles.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/soapservice/GetOneFileLogs.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/soapservice/Log.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/soapservice/LogDates.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/soapservice/ReturnLogFiles.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/soapservice/ApplicationLogicGetServerLogs.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/mysoap/SoapGetLogs.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/GetLogFiles.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/webapp/log4j.properties" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/log4j.properties" />
     <entry file="file://$PROJECT_DIR$/target/maven-archiver/pom.properties">
@@ -1112,21 +1313,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/ReturnLogFiles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="42" column="121" selection-start-line="42" selection-start-column="121" selection-end-line="42" selection-end-column="121" />
-          <folding>
-            <element signature="method#returnLogFiles#0;class#ReturnLogFiles#0" expanded="false" />
-            <element signature="method#getLogFiles#0;class#ReturnLogFiles#0" expanded="false" />
-            <element signature="method#isLogFile#0;class#ReturnLogFiles#0" expanded="false" />
-            <element signature="method#getServersPaths#0;class#ReturnLogFiles#0" expanded="false" />
-            <element signature="method#getClusterServerNames#0;class#ReturnLogFiles#0" expanded="false" />
-            <element signature="method#getClusterServers#0;class#ReturnLogFiles#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/util/Comparator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
@@ -1134,106 +1320,286 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/LogDates.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" column="95" selection-start-line="13" selection-start-column="95" selection-end-line="13" selection-end-column="95" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/TreeSetLogSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          <folding>
-            <element signature="method#compare#0;class#TreeSetLogSort#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/GetOneFileLogs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-          <folding>
-            <element signature="method#getFileLogs#0;class#GetOneFileLogs#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/soapservice/report1/jrxml.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/ApplicationGetServerLogs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="47" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/reports/report1.jrxml" />
     <entry file="file://$PROJECT_DIR$/src/reports/report1.jasper" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/soapservice/SimpleReport.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/restservice/InputTypes.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/transform.xslt" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/soapservice/XSLTTransform.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/helloservice/HelloService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/restservice/StyleSheet.xslt" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/PrintLogsFile.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/ConstructorsForXML.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/restservice/StyleSheet.xsl" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/javax/xml/datatype/XMLGregorianCalendar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="-10250">
+          <caret line="209" column="31" selection-start-line="209" selection-start-column="31" selection-end-line="209" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sheet.xsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/transform.xslt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/restservice/JpReports.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/types/Sheet.xsl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/soapservice/SoapGetLogs.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/outdata/outputData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="47" column="59" selection-start-line="47" selection-start-column="59" selection-end-line="47" selection-end-column="59" />
+        <state relative-caret-position="-68">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/soapservice/XSLTTransform.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/OutputData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="103" column="38" selection-start-line="103" selection-start-column="38" selection-end-line="103" selection-end-column="38" />
+        <state relative-caret-position="85">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/restservice/RestGetLogs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="12" selection-end-column="35" />
-          <folding>
-            <element signature="docComment;class#RestGetLogs#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+        <state relative-caret-position="190">
+          <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/javax/xml/transform/dom/DOMSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/javax/xml/transform/stream/StreamResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2009">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/creator/CreateXML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/creator/XMLtoXML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="68" column="21" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/BusinessLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="1924" column="18" selection-start-line="1924" selection-start-column="18" selection-end-line="1924" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/types/OutputLogs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/types/LogConvert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/types/ConvertXMLToHTML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/types/CreatePDF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/lang/Long.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="629" column="23" selection-start-line="629" selection-start-column="23" selection-end-line="629" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/creator/MarshallerObj.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/creator/StyleSheet.xsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9598">
+          <caret line="148" column="13" selection-start-line="148" selection-start-column="13" selection-end-line="148" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/creator/XMLFromJAXB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="23" column="70" selection-start-line="23" selection-start-column="70" selection-end-line="23" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/ApplicationServerLogs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/Log.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="71" column="47" selection-start-line="71" selection-start-column="47" selection-end-line="71" selection-end-column="47" />
+        <state relative-caret-position="1275">
+          <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
           <folding>
-            <element signature="method#getTime#0;class#Log#0" expanded="false" />
-            <element signature="method#getXMLTime#0;class#Log#0" expanded="false" />
-            <element signature="method#getXMLTimeFromDateFormat#0;class#Log#0" expanded="false" />
-            <element signature="method#getThreadName#0;class#Log#0" expanded="false" />
+            <element signature="docComment;class#Log#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/LogDates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="74" column="30" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
+          <folding>
+            <element signature="method#dateHandler#0;class#LogDates#0" expanded="false" />
+            <element signature="method#getXMLTime#0;class#LogDates#0" expanded="false" />
+            <element signature="method#isDateBetween#0;class#LogDates#0" expanded="false" />
+            <element signature="method#isDateSmaller#0;class#LogDates#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/LogFiles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="67" column="70" selection-start-line="67" selection-start-column="70" selection-end-line="67" selection-end-column="70" />
+          <folding>
+            <element signature="method#getLogFiles#0;class#LogFiles#0" expanded="false" />
+            <element signature="method#isLogFile#0;class#LogFiles#0" expanded="false" />
+            <element signature="method#getServersPaths#0;class#LogFiles#0" expanded="false" />
+            <element signature="e#2421#2429#0" expanded="true" />
+            <element signature="method#getClusterServerNames#0;class#LogFiles#0" expanded="false" />
+            <element signature="method#getClusterServers#0;class#LogFiles#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/TreeSetLogSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/service/OneFileLogs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="44" column="52" selection-start-line="44" selection-start-column="52" selection-end-line="44" selection-end-column="52" />
+          <folding>
+            <element signature="docComment;class#OneFileLogs#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/businesslogic/BusinessLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/businesslogic/InputTypes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/restservice/RestLogs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="35" column="55" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
+          <folding>
+            <element signature="docComment;class#RestLogs#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kkihlasovich/wl/soapservice/SoapLogs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="28" column="56" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -7,6 +7,6 @@ import java.util.Comparator;
  */
     class TreeSetLogSort implements Comparator<Log> {
     public int compare(Log o1, Log o2) {
-        return o1.date.toGregorianCalendar().compareTo(o2.date.toGregorianCalendar());
+        return o1.getDate().toGregorianCalendar().compareTo(o2.getDate().toGregorianCalendar());
     }
 }
